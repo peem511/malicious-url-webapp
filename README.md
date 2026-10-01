@@ -17,7 +17,13 @@
 
 ### วิธีที่ 2: รันบนเครื่องตัวเอง
 
-ต้องมี **Python 3.11** และ **Git LFS** (ใช้ดึงไฟล์โมเดล)
+ต้องมี **Python 3.11**
+
+**ถ้าได้โค้ดเป็นไฟล์ zip:** ไฟล์โมเดลมีขนาด 119 MB จึงไม่ได้รวมไว้ใน zip ให้ดาวน์โหลดจาก
+https://github.com/peem511/malicious-url-webapp/raw/main/models/url_model_original.joblib
+แล้ววางไว้ในโฟลเดอร์ `models/` (ได้ `models/url_model_original.joblib`) จากนั้นรันคำสั่งตั้งแต่บรรทัด `python -m venv .venv`
+
+**ถ้าดาวน์โหลดจาก GitHub:** ต้องมี **Git LFS** เพื่อดึงไฟล์โมเดลมาพร้อมโค้ด
 
 ```bash
 git lfs install
