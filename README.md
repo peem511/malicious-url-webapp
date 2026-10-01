@@ -20,7 +20,8 @@ MaliciousURL_WebApp/
 │   └── game_urls.csv               # URL 100 ตัวอย่าง (คลาสละ 25) สำหรับเกมทาย URL
 ├── notebooks/
 │   ├── MaliciousURL_Full_CL.ipynb  # Notebook หลัก: เตรียมข้อมูล → เทรน → ประเมิน → ทดสอบภายนอก → ตรวจ label
-│   └── External_Test_3Models.ipynb # ทดสอบโมเดลที่บันทึกไว้กับข้อมูลภายนอก
+│   ├── External_Test_3Models.ipynb # ทดสอบโมเดลที่บันทึกไว้กับข้อมูลภายนอก
+│   └── MiniProject_MaliciousURL.ipynb # Logistic Regression ที่เทรนจาก label ที่แก้การสลับของ PhishStorm แล้ว (ใช้เทียบ)
 ├── .streamlit/config.toml          # ธีมสีแดง-ขาว
 ├── requirements.txt                # ไลบรารีที่ต้องใช้ (ระบุเวอร์ชัน)
 └── README.md
